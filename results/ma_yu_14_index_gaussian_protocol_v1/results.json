@@ -1,0 +1,158 @@
+{
+  "status": "complete",
+  "config_sha256": "3fa4e4f7ec5e699866f78e50b62350508ca25939619197f1b5fa2f79717c696a",
+  "data_sha256": "a6fe95afa29854829c25de140ae820eecc04bb54350048edcc19770a8a638ff4",
+  "data_shape": [
+    1039,
+    14
+  ],
+  "series": [
+    "000001.SS",
+    "399001.SZ",
+    "IMOEX.ME",
+    "^AXJO",
+    "^DJI",
+    "^GSPC",
+    "^HSI",
+    "^IXIC",
+    "^KS11",
+    "^N100",
+    "^N225",
+    "^NZ50",
+    "^STI",
+    "^STOXX50E"
+  ],
+  "scalar_edge_count_per_split": 182,
+  "block_edge_count_per_split": 6006,
+  "max_abs_scalar_map_error": 6.817463260588852e-16,
+  "scalar_rank_summary": {
+    "full": {
+      "edges": 182,
+      "comparable_pairs": 16471,
+      "discordant_pairs": 0,
+      "discordant_fraction": 0.0,
+      "kendall_tau_no_tie_approx": 1.0,
+      "spearman": 1.0
+    },
+    "discovery": {
+      "edges": 182,
+      "comparable_pairs": 16471,
+      "discordant_pairs": 0,
+      "discordant_fraction": 0.0,
+      "kendall_tau_no_tie_approx": 1.0,
+      "spearman": 1.0
+    },
+    "confirmation": {
+      "edges": 182,
+      "comparable_pairs": 16471,
+      "discordant_pairs": 0,
+      "discordant_fraction": 0.0,
+      "kendall_tau_no_tie_approx": 1.0,
+      "spearman": 1.0
+    }
+  },
+  "block_rank_summary": {
+    "full": {
+      "edges": 6006,
+      "comparable_pairs": 18033015,
+      "discordant_pairs": 2651,
+      "discordant_fraction": 0.00014700814034702462,
+      "kendall_tau_no_tie_approx": 0.999705983719306,
+      "spearman": 0.9999996925898113
+    },
+    "discovery": {
+      "edges": 6006,
+      "comparable_pairs": 18033015,
+      "discordant_pairs": 8992,
+      "discordant_fraction": 0.0004986409649190665,
+      "kendall_tau_no_tie_approx": 0.9990027180701618,
+      "spearman": 0.9999977528592146
+    },
+    "confirmation": {
+      "edges": 6006,
+      "comparable_pairs": 18033015,
+      "discordant_pairs": 2992,
+      "discordant_fraction": 0.0001659179011385506,
+      "kendall_tau_no_tie_approx": 0.9996681641977229,
+      "spearman": 0.9999995892335207
+    }
+  },
+  "discovery_strongest_reversal": {
+    "low_gc_edge": "^GSPC+^N225->399001.SZ+^AXJO",
+    "high_gc_edge": "000001.SS+^STOXX50E->^AXJO+^HSI",
+    "gc_low": 0.21023275116935025,
+    "gc_high": 0.21064202003667987,
+    "cs_low_gc": 0.05654017330553735,
+    "cs_high_gc": 0.05516352618250344,
+    "gc_gap": 0.0004092688673296152,
+    "cs_reversal_gap": 0.0013766471230339111
+  },
+  "confirmation_of_selected_reversal": {
+    "low_gc_edge": "^GSPC+^N225->399001.SZ+^AXJO",
+    "high_gc_edge": "000001.SS+^STOXX50E->^AXJO+^HSI",
+    "gc_low": 0.322126183943201,
+    "gc_high": 0.208825744004848,
+    "cs_low_gc": 0.08963550704170434,
+    "cs_high_gc": 0.05614789133662977,
+    "both_signs_retained": false
+  },
+  "discovery_near_equal_gc": {
+    "edge_one": "000001.SS+^STOXX50E->^AXJO+^HSI",
+    "edge_two": "^GSPC+^KS11->^HSI+^N225",
+    "gc_one": 0.21064202003667987,
+    "gc_two": 0.21069974469354946,
+    "absolute_gc_gap": 5.772465686959549e-05,
+    "cs_one": 0.05516352618250344,
+    "cs_two": 0.05667106755072568,
+    "absolute_cs_gap": 0.0015075413682222386,
+    "tolerance": 0.0003064706317679544
+  },
+  "bootstrap_both_signs_fraction": 0.0,
+  "selected_edge_kde": [
+    {
+      "edge_id": "^GSPC+^N225->399001.SZ+^AXJO",
+      "orientation": "official-featurewise",
+      "eta": 0.05,
+      "median": 0.32890538275663894,
+      "bandwidth": 0.01644526913783195,
+      "gc": 0.25381302090213964,
+      "gaussian_te": 0.12690651045106982,
+      "canonical_cs": 0.06923395580486012,
+      "kde_cs": 8.67071059857949e-05
+    },
+    {
+      "edge_id": "^GSPC+^N225->399001.SZ+^AXJO",
+      "orientation": "samplewise",
+      "eta": 0.05,
+      "median": 0.020599418753970665,
+      "bandwidth": 0.0010299709376985332,
+      "gc": 0.25381302090213964,
+      "gaussian_te": 0.12690651045106982,
+      "canonical_cs": 0.06923395580486012,
+      "kde_cs": 0.3404251617380645
+    },
+    {
+      "edge_id": "000001.SS+^STOXX50E->^AXJO+^HSI",
+      "orientation": "official-featurewise",
+      "eta": 0.05,
+      "median": 0.26420320556980814,
+      "bandwidth": 0.013210160278490408,
+      "gc": 0.1776712674617329,
+      "gaussian_te": 0.08883563373086645,
+      "canonical_cs": 0.047012518764619905,
+      "kde_cs": 0.00027997033841486996
+    },
+    {
+      "edge_id": "000001.SS+^STOXX50E->^AXJO+^HSI",
+      "orientation": "samplewise",
+      "eta": 0.05,
+      "median": 0.018575374119701067,
+      "bandwidth": 0.0009287687059850534,
+      "gc": 0.1776712674617329,
+      "gaussian_te": 0.08883563373086645,
+      "canonical_cs": 0.047012518764619905,
+      "kde_cs": 0.563240017717737
+    }
+  ],
+  "interpretation_boundary": "Exploratory descriptive application on the frozen Ma-Yu matrix; not causal identification."
+}

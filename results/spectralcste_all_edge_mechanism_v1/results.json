@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "config_sha256": "4ee5f97079662fff014022fe52a7e6d98cc419af7bc77d50ec22d75aaf9ef7d9",
+  "data_sha256": "a6fe95afa29854829c25de140ae820eecc04bb54350048edcc19770a8a638ff4",
+  "edge_count": 6006,
+  "tau_near_gc": 0.00030647063176793667,
+  "kappa_dispersion": 0.2602901626975339,
+  "discovery_association": {
+    "pearson_h_qn": 0.999999999972553,
+    "spearman_h_qn": 0.9999999978398202,
+    "standardized_ols_slope_h_to_qn": 0.999999999972553,
+    "mean_h": 0.26627096969540814,
+    "mean_q": 3.9437609984580616e-05,
+    "mean_qn": 0.2662700186704426
+  },
+  "confirmation_association": {
+    "pearson_h_qn": 0.9999999999846539,
+    "spearman_h_qn": 0.9999999979505987,
+    "standardized_ols_slope_h_to_qn": 0.9999999999846539,
+    "mean_h": 0.19483271817525274,
+    "mean_q": 2.517082690223931e-05,
+    "mean_qn": 0.19483225201509893
+  },
+  "discovery_pair_summary": {
+    "near_pair_count": 118301,
+    "qualified_pair_count": 59151,
+    "directional_accuracy": 0.5893898666125679,
+    "predicted_reversal_pair_count": 29480,
+    "predicted_reversal_fraction": 0.1761194029850746,
+    "predicted_mean_signed_cs_gap": -2.227110038858604e-05,
+    "opposite_pair_count": 29671,
+    "opposite_reversal_fraction": 0.0,
+    "reversal_risk_difference": 0.1761194029850746
+  },
+  "confirmation_pair_summary": {
+    "near_pair_count": 170689,
+    "qualified_pair_count": 81606,
+    "directional_accuracy": 0.5167634732740239,
+    "predicted_reversal_pair_count": 40650,
+    "predicted_reversal_fraction": 0.02988929889298893,
+    "predicted_mean_signed_cs_gap": -3.545349465006349e-05,
+    "opposite_pair_count": 40956,
+    "opposite_reversal_fraction": 0.0,
+    "reversal_risk_difference": 0.02988929889298893
+  },
+  "temporal_stability": {
+    "discovery_qualified_pairs": 59151,
+    "confirmation_predicted_sign_retention": 0.5290527632668932,
+    "discovery_observed_reversal_pairs": 5192,
+    "confirmation_both_signs_retention": 0.0001926040061633282
+  },
+  "scalar_sanity": {
+    "discovery": {
+      "edges": 182,
+      "discordant_pairs": 0,
+      "max_abs_map_error": 5.134781488891349e-16
+    },
+    "confirmation": {
+      "edges": 182,
+      "discordant_pairs": 0,
+      "max_abs_map_error": 4.791631501299687e-16
+    }
+  },
+  "bootstrap_repetitions": 200,
+  "bootstrap_failures": 0,
+  "bootstrap_percentile_95_ci": {
+    "standardized_slope": [
+      0.9999999999193573,
+      0.9999999999870827
+    ],
+    "directional_accuracy": [
+      0.5293213304009279,
+      0.651802660543712
+    ],
+    "predicted_reversal_fraction": [
+      0.05656822010386164,
+      0.30312343731496566
+    ],
+    "reversal_risk_difference": [
+      0.05656822010386164,
+      0.30312343731496566
+    ],
+    "temporal_predicted_sign_retention": [
+      0.4839558925461953,
+      0.5452934016331085
+    ],
+    "temporal_both_signs_retention": [
+      0.0,
+      0.000963020030816641
+    ]
+  },
+  "decision_rule_note": "Financial support requires positive confirmation directions, non-null bootstrap intervals, and nontrivial temporal stability."
+}

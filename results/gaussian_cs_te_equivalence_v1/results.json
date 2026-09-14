@@ -1,0 +1,78 @@
+{
+  "config_sha256": "69ad4e6f647f60bdbd89e06ac49e3676d9e07138b3c349ae17ee56b6ed9e4f64",
+  "experiment": "gaussian_cs_te_equivalence_v1",
+  "max_abs_gc_vs_partial_canonical_error": 2.3092638912203256e-14,
+  "max_abs_scalar_transform_error": 7.327471962526033e-15,
+  "notes": [
+    "Synthetic nilpotent Gaussian VAR(1); no market data used.",
+    "Gaussian TE is computed as one half of fitted log-determinant Geweke GC.",
+    "Canonical CS is computed from sample partial canonical correlations.",
+    "KDE CS reproduces the public Ma--Yu Gram statistic; bandwidth orientations are reported separately."
+  ],
+  "row_count": 636,
+  "status": "completed",
+  "summary_row_count": 132,
+  "theoretical_equal_gc_gap": 0.10046387716151484,
+  "theoretical_models": {
+    "concentrated": {
+      "theory_cs": 0.7564417556472544,
+      "theory_gc": 2.0,
+      "theory_rho2": [
+        0.8646647167633873,
+        0.0
+      ],
+      "theory_te": 1.0
+    },
+    "equal_gc_spread": {
+      "theory_cs": 0.6559778784857395,
+      "theory_gc": 2.0,
+      "theory_rho2": [
+        0.6321205588285577,
+        0.6321205588285577
+      ],
+      "theory_te": 1.0
+    },
+    "larger_gc_spread": {
+      "theory_cs": 0.7350795173984352,
+      "theory_gc": 2.2,
+      "theory_rho2": [
+        0.6671289163019205,
+        0.6671289163019205
+      ],
+      "theory_te": 1.1
+    },
+    "scalar_te_0.05": {
+      "theory_cs": 0.02592178699925464,
+      "theory_gc": 0.1,
+      "theory_rho2": [
+        0.09516258196404048
+      ],
+      "theory_te": 0.05
+    },
+    "scalar_te_0.25": {
+      "theory_cs": 0.14645191304295052,
+      "theory_gc": 0.5,
+      "theory_rho2": [
+        0.3934693402873666
+      ],
+      "theory_te": 0.25
+    },
+    "scalar_te_0.75": {
+      "theory_cs": 0.5340586256787394,
+      "theory_gc": 1.5,
+      "theory_rho2": [
+        0.7768698398515702
+      ],
+      "theory_te": 0.75
+    },
+    "scalar_te_1.25": {
+      "theory_cs": 0.9893119544450775,
+      "theory_gc": 2.5,
+      "theory_rho2": [
+        0.9179150013761012
+      ],
+      "theory_te": 1.25
+    }
+  },
+  "theoretical_order_reversal_gap": 0.02136223824881911
+}

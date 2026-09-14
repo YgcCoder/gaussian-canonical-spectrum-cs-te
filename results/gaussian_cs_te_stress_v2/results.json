@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "config_sha256": "5b8199dbd007c4df329c6241b98d964da48149890e8cb6c60e898dae3fe3d8d1",
+  "random_spd_constructions": 1200,
+  "random_var_constructions": 300,
+  "numerical_failures": {
+    "spd": 1,
+    "var": 0
+  },
+  "kde_rows": 180,
+  "max_abs_errors": {
+    "spd_gc_vs_spectrum": 0.14145271233897105,
+    "spd_cs_overlap_vs_spectrum": 0.21535824514451818,
+    "spd_gc_vs_generation_truth": 0.5425929655978265,
+    "spd_cs_vs_generation_truth": 0.10463129802819893,
+    "spd_spectral_gc_vs_generation_truth": 0.6358084329886324,
+    "spd_spectral_cs_vs_generation_truth": 0.31790421636844535,
+    "var_gc_vs_spectrum": 3.1086244689504383e-15,
+    "var_cs_overlap_vs_spectrum": 2.6645352591003757e-15,
+    "te_vs_cmi": 0.0
+  },
+  "moderate_condition_max_abs_errors": {
+    "definition": "condition_sa and condition_sb <= 1e4; max_rho2 <= 0.99",
+    "gc_vs_truth": 2.332800619342379e-12,
+    "cs_vs_truth": 1.2954082251326327e-12
+  },
+  "worst_conditions": {
+    "sa": 99861800.9183643,
+    "sb": 98742177.85552078,
+    "state_cov": 88.9930254429935,
+    "max_rho2": 0.9999999998929656
+  },
+  "kde_spearman_vs_gc": {
+    "official-featurewise:eta=0.02": -0.4709677419354839,
+    "official-featurewise:eta=0.05": -0.5239154616240267,
+    "official-featurewise:eta=0.2": -0.4580645161290322,
+    "samplewise:eta=0.02": -0.07630700778642936,
+    "samplewise:eta=0.05": -0.6048943270300334,
+    "samplewise:eta=0.2": -0.5279199110122358
+  },
+  "claim_boundary": "KDE correlations are finite-sample diagnostics, not consistency results."
+}

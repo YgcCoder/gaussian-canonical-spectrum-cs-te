@@ -1,0 +1,19 @@
+{
+  "experiment": "spectralcste_all_edge_mechanism_v1",
+  "data_path": "data/stock_indexes_canonical.csv",
+  "expected_sha256": "a6fe95afa29854829c25de140ae820eecc04bb54350048edcc19770a8a638ff4",
+  "expected_rows": 1039,
+  "expected_series": 14,
+  "documented_period": "2016-01-01 through 2019-12-31",
+  "source_block_size": 2,
+  "target_block_size": 2,
+  "lag": 1,
+  "discovery_rows": [0, 520],
+  "confirmation_rows": [520, 1039],
+  "near_gc_fraction_of_discovery_median_positive_gc": 0.01,
+  "dispersion_difference_quantile_within_near_gc": 0.5,
+  "bootstrap_seed": 20260913,
+  "bootstrap_repetitions": 200,
+  "bootstrap_block_length": 20,
+  "ci_percentiles": [2.5, 97.5]
+}

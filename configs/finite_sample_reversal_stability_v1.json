@@ -1,0 +1,13 @@
+{
+  "experiment": "finite_sample_reversal_stability_v1",
+  "master_seed": 20260914,
+  "sample_sizes": [64, 128, 256, 512, 1024, 2048, 4096],
+  "replicates": 1000,
+  "burn_in": 64,
+  "models": {
+    "A_concentrated": [1.0, 0.0],
+    "B_equal_gc_spread": [0.5, 0.5],
+    "C_larger_gc_spread": [0.55, 0.55]
+  },
+  "notes": "Synthetic nilpotent Gaussian VAR(1) only. Estimates use the Gaussian covariance plug-in. Model streams are independent within each replicate."
+}

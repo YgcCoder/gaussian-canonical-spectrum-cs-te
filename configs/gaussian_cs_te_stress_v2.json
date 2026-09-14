@@ -1,0 +1,14 @@
+{
+  "experiment": "gaussian_cs_te_stress_v2",
+  "seed": 20260912,
+  "random_spd_constructions": 1200,
+  "random_var_constructions": 300,
+  "min_dimension": 1,
+  "max_dimension": 5,
+  "max_transform_log10_condition": 4.0,
+  "var_max_spectral_radius": 0.85,
+  "kde_scalar_constructions": 30,
+  "kde_sample_size": 256,
+  "kde_burn_in": 200,
+  "kde_eta": [0.02, 0.05, 0.2]
+}

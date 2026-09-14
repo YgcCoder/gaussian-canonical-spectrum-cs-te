@@ -1,0 +1,19 @@
+{
+  "experiment": "ma_yu_14_index_gaussian_protocol_v1",
+  "data_path": "data/stock_indexes_canonical.csv",
+  "expected_sha256": "a6fe95afa29854829c25de140ae820eecc04bb54350048edcc19770a8a638ff4",
+  "expected_rows": 1039,
+  "expected_series": 14,
+  "documented_period": "2016-01-01 through 2019-12-31",
+  "primary_lag": 1,
+  "source_block_size": 2,
+  "target_block_size": 2,
+  "discovery_rows": [0, 520],
+  "confirmation_rows": [520, 1039],
+  "near_equal_gc_tolerance_fraction_of_median_positive_gc": 0.01,
+  "bootstrap_seed": 20260912,
+  "bootstrap_repetitions": 200,
+  "bootstrap_block_length": 20,
+  "kde_eta": 0.05,
+  "kde_orientations": ["official-featurewise", "samplewise"]
+}

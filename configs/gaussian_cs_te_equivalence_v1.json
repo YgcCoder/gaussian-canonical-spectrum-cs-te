@@ -1,0 +1,22 @@
+{
+  "experiment": "gaussian_cs_te_equivalence_v1",
+  "seed_list": [11, 29, 47, 71, 101],
+  "sample_sizes": [256, 512, 1024],
+  "burn_in": 64,
+  "eta_list": [0.02, 0.05, 0.2],
+  "scalar_component_te": [0.05, 0.25, 0.75, 1.25],
+  "multivariate_component_te": {
+    "concentrated": [1.0, 0.0],
+    "equal_gc_spread": [0.5, 0.5],
+    "larger_gc_spread": [0.55, 0.55]
+  },
+  "scale_test": {
+    "sample_size": 512,
+    "seed": 11,
+    "component_te": 0.75,
+    "source_scales": [0.1, 1.0, 10.0],
+    "eta": 0.05
+  },
+  "notes": "Synthetic nilpotent Gaussian VAR(1) only; no market data. Official notebook bandwidth orientation and a samplewise corrected orientation are both evaluated."
+}
+
